@@ -1,16 +1,11 @@
 import React, {Component} from 'react';
+import names from '../data/menudesc';
+
 
 class Menu extends Component {
 	constructor (props) {
 		super(props);
-		this.state = {
-			namee: [
-				'folder',
-				'star',
-				'work',
-				'aspect_ratio',
-				'code'
-			]};
+		this.state = { namee: names };
 	}
 
 	shook (text,i){

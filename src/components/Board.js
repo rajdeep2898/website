@@ -1,25 +1,14 @@
 import React, {Component} from 'react';
 
+//import images
+import imgpath from '../data/images'
+
 class Icon extends Component {
 	constructor (props) {
 	    super(props);
-	    this.state = {
-			img: [
-				{imge:'../img/backpack.png', desc:'Backpack'},
-				{imge:'../img/brush.png', desc:'Paint Brush'},
-				{imge:'../img/burger.png', desc:'Cheeseburger'},
-				{imge:'../img/coffeemachine.png', desc:'Coffee Machine'},
-				{imge:'../img/gopro.png', desc:'GoPro'},
-				{imge:'../img/hat.png', desc:'Pirate Hat'},
-				{imge:'../img/helmet.png', desc:'Helmet'},
-				{imge:'../img/iMac.png', desc:'iMac'},
-				{imge:'../img/inkpot.png', desc:'Inkpot'},
-				{imge:'../img/notebook.png', desc:'Notebook'},
-				{imge:'../img/tv.png', desc:'TV'},
-				{imge:'../img/watch.png', desc:'Watch'}
-    		]};
+	    this.state = { img: imgpath };
 		}
-
+	
 	look (imgdes, i) {
 		console.log(text+" "+i);
 		let text = imgdes.desc;
