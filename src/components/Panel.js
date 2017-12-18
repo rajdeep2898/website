@@ -14,8 +14,8 @@ export default class Panel extends Component {
 
 
 	openNav() {
-	    document.getElementById("mySidenav").style.width = "250px";
-	    document.getElementById("container").style.marginLeft = "225px";
+	    document.getElementById("mySidenav").style.width = "425px";
+	    document.getElementById("container").style.marginLeft = "400px";
 	    //document.getElementById( "panelinout" ).setAttribute( "onClick", {closeNav} );
 			this.setState({open: true});
 			document.getElementById("panelinout").className = "hamburger change";
@@ -23,7 +23,7 @@ export default class Panel extends Component {
 
 	closeNav() {
 	    document.getElementById("mySidenav").style.width = "50px";
-	    document.getElementById("container").style.marginLeft = "20px";
+	    document.getElementById("container").style.marginLeft = "24px";
 	    //document.getElementById("panelinout" ).setAttribute( "onClick", {openNav} );
 			this.setState({open: false});
 			document.getElementById("panelinout").className = "hamburger";

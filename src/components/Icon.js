@@ -12,7 +12,7 @@ export default class Icon extends Component {
 	look (imgdes, i) {
 		console.log(text+" "+i);
 		let text = imgdes.desc;
-		let imgw = imgdes.imge
+		let imgw = imgdes.imge;
 		return (<div className = "onebit" key={i}>
 			<img className = "image" src= {imgw} alt={text} />
 			<p className = "texts" >{text}</p>

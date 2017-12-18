@@ -5,7 +5,7 @@ import Panel from './Panel';
 class Sidenav extends Component {
 	render () {
 		return (
-	      	<div id="mySidenav"><Panel /><Menu /></div>
+	      	<div id="mySidenav" className="mySidenav"><Panel /><Menu /></div>
 		);
 	}
 };
