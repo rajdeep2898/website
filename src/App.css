@@ -135,11 +135,3 @@
     transition: margin-left .1s;
     margin-left: 24px;
 }
-
-@media only screen and (max-width: 425px) {
-  .image {
-    height: 100px;
-    width: 100px;
-    margin: 10px 50px 10px 50px;
-  }
-}
