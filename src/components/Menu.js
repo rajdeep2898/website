@@ -9,11 +9,20 @@ export default class Menu extends Component {
 	}
 
 	shook (text,i){
+		if (text==='dns') {
+			var lol = 'Search by Department';
+		}
+		else if (text==='code'){
+			 lol = 'Search by Subject Code';
+		}
+		else {
+			 lol = 'Search by Semester';
+		}
 		return (
 			<div key={i}>
-				<a href="">
+				<a href="javascript:void(0)">
 					<i className="material-icons" >{text}</i>
-					<p className="nav-panel-desc">{text}</p>
+					<input type="text" name="search" placeholder={lol} className="nav-panel-desc" />
 				</a>
 			</div>
 		);

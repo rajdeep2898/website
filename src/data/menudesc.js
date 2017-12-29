@@ -1,9 +1,7 @@
 const namee =  [
-		'folder',
-		'star',
-		'work',
-		'aspect_ratio',
-		'code'
+		'dns',
+		'code',
+		'storage'
   ];
 
   export default namee;

@@ -9,7 +9,7 @@ class Board extends Component {
 		return (
 			<div id="container">
 				<div className="board">
-					<h1>Favorite Icons</h1>
+					<h1>Departments</h1>
 					<Icon/>
 				</div>
 			</div>

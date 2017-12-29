@@ -1,0 +1,51 @@
+{
+  "dept_name" : "",
+  "dept_id" : "",
+  "course_name" : "",
+  "course_id" : "",
+  "sem" : "",
+  "books" : [
+    {
+      "name" : "",
+      "link" : "",
+      "rating" : ""
+    }
+  ],
+  "Topic Videos" : [
+    {
+      "name" : "",
+      "type" : "",
+      "link" : "",
+      "rating" : ""
+    }
+
+  ],
+  "Online Courses" : "APIs",
+  "Notes" : [
+    {
+      "professor" : "",
+      "year" : "",
+      "link" : "",
+      "rating" : ""
+    }
+  ],
+  "Presentations" : [
+    {
+      "topic" : "",
+      "professor" : "",
+      "year" : "",
+      "link" : "",
+      "rating" : ""
+    }
+  ],
+  "Tutorials" : [
+    {
+      "topic" : "",
+      "desc" : "",
+      "professor" : "",
+      "year" : "",
+      "link" : "",
+      "rating" : ""
+    }
+  ]
+},

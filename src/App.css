@@ -85,7 +85,9 @@
 
 .mySidenav .nav-panel-desc {
   margin: 0;
-  padding-top: 10px;
+  width: 300px;
+  margin-top: 7px;
+  height: 30px;
 }
 
 .hamburger {
