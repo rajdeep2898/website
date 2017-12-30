@@ -1,12 +1,12 @@
 const sems =  [
-  {sems:'../img/one.png', desc:'one'},
-  {sems:'../img/two.png', desc:'two'},
-  {sems:'../img/three.png', desc:'three'},
-  {sems:'../img/four.png', desc:'four'},
-  {sems:'../img/five.png', desc:'five'},
-  {sems:'../img/six.png', desc:'six'},
-  {sems:'../img/seven.png', desc:'seven'},
-  {sems:'../img/eight.png', desc:'eight'}
+  {sems:'../img/one.png', desc:'One'},
+  {sems:'../img/two.png', desc:'Two'},
+  {sems:'../img/three.png', desc:'Three'},
+  {sems:'../img/four.png', desc:'Four'},
+  {sems:'../img/five.png', desc:'Five'},
+  {sems:'../img/six.png', desc:'Six'},
+  {sems:'../img/seven.png', desc:'Seven'},
+  {sems:'../img/eight.png', desc:'Eight'}
 ];
 
 export default sems;

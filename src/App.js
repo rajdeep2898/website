@@ -5,7 +5,7 @@ import Board from './components/Board';
 import Sidenav from './components/Sidenav';
 
 // css
-import css from './App.css';
+import './App.css';
 
 class App extends Component {
   render() {

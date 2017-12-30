@@ -10,7 +10,6 @@ export default class Semester extends Component {
 		}
 
 	look (semdes, i) {
-		console.log(text+" "+i);
 		let text = semdes.desc;
 		let sems = semdes.sems;
 		return (<div className = "onebit" key={i}>
