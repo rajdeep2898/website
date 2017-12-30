@@ -20,11 +20,13 @@ export default class Semester extends Component {
 		}
 
 	render () {
-		return (<div className="pro ">
-					{this.state.sem.map(this.look)}
+		return (
+				<div>
+					<h1>Semesters</h1>
+					<div className="pro ">
+						{this.state.sem.map(this.look)}
+					</div>
 				</div>
 				);
-
 	}
-
 };

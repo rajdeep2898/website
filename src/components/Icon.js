@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 
 //import images
-import imgpath from '../data/images'
+import imgpath from '../data/images';
+
+import { Link } from 'react-router-dom';
 
 export default class Icon extends Component {
 	constructor (props) {
@@ -20,11 +22,13 @@ export default class Icon extends Component {
 		}
 
 	render () {
-		return (<div className="pro ">
+		return (
+			<div>
+				<h1>Departments</h1>
+				<Link to='/semester' className="pro ">
 					{this.state.img.map(this.look)}
-				</div>
-				);
-
+				</Link>
+			</div>
+		);
 	}
-
 };
