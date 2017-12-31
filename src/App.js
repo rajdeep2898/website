@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 // Components
-import Board from './views/Board';
-import Sidenav from './views/NavBar/Sidenav';
+import Board from './components/Board';
+import Sidenav from './components/NavBar/Sidenav';
 
 // css
 import '../App.css';

@@ -1,0 +1,82 @@
+{
+  "dept_name" : " ",
+  "dept_id" : "",
+  "courses" : [
+    {
+      "sem" : "",
+      "course_name" : " ",
+      "course_id" : "",
+      "books" : [
+        {
+          "name" : "   ",
+          "link" : "",
+          "rating" : ""
+        },
+      ],
+      "Topic Videos" : [
+        {
+          "name" : "   ",
+          "type" : "",
+          "link" : "",
+          "rating" : ""
+        },
+      ],
+      "Online Courses" : "",
+      "Notes" : [
+        {
+          "professor" : "",
+          "year" : "",
+          "link" : "",
+          "rating" : ""
+        },
+      ],
+      "Presentations" : [
+        {
+          "topic" : "",
+          "professor" : "",
+          "year" : "",
+          "link" : "",
+          "rating" : ""
+        },
+      ]
+    },
+    {
+      "course_name" : "",
+      "course_id" : "",
+      "sem" : "",
+      "books" : [
+        {
+          "name" : "   ",
+          "link" : "",
+          "rating" : ""
+        },
+      ],
+      "Topic Videos" : [
+        {
+          "name" : "   ",
+          "type" : "",
+          "link" : "",
+          "rating" : ""
+        },
+      ],
+      "Online Courses" : "",
+      "Notes" : [
+        {
+          "professor" : "",
+          "year" : "",
+          "link" : "",
+          "rating" : ""
+        },
+      ],
+      "Presentations" : [
+        {
+          "topic" : " ",
+          "professor" : "",
+          "year" : "",
+          "link" : "",
+          "rating" : ""
+        },
+      ]
+    }
+  ]
+},
