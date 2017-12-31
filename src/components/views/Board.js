@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Icon from './Icon';
-import Semester from './Semester';
+import Icon from './Departments/Icon';
+import Semester from './Semesters/Semester';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 

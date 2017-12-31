@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 // Components
-import Board from './components/Board';
-import Sidenav from './components/Sidenav';
+import Board from './views/Board';
+import Sidenav from './views/NavBar/Sidenav';
 
 // css
-import './App.css';
+import '../App.css';
 
 class App extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 //import images
-import sempath from '../data/semester'
+import sempath from '../../../data/semester'
 
 export default class Semester extends Component {
 	constructor (props) {

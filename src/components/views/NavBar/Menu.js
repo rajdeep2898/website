@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import names from '../data/menudesc';
+import names from '../../../data/menudesc';
 
 export default class Menu extends Component {
 	constructor (props) {
