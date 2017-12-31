@@ -1,20 +1,18 @@
 import React, {Component} from 'react';
 
 //import images
-import sempath from '../../../data/semester'
+import sempath from '../../data/departments'
 
 export default class Semester extends Component {
 	constructor (props) {
 	    super(props);
-	    this.state = { sem: sempath };
+	    this.state = { sem : sempath };
 		}
 
 	look (semdes, i) {
-		let text = semdes.desc;
-		let sems = semdes.sems;
-		return (<div className = "onebit" key={i}>
-			<img className = "image" src= {sems} alt={text} />
-			<p className = "texts" >{text}</p>
+		let text = semdes.sem_no;
+		return (<div className = "sems" key={i}>
+			<p className = "semtext" >{text}</p>
 		</div>);
 		}
 
@@ -22,7 +20,7 @@ export default class Semester extends Component {
 		return (
 				<div>
 					<h1>Semesters</h1>
-					<div className="pro ">
+					<div className="sem_dialog ">
 						{this.state.sem.map(this.look)}
 					</div>
 				</div>
