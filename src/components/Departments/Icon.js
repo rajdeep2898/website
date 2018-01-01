@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './dialogbox.css';
+import Dialog from './Dialogbox';
 
 //import images
 import depart from '../../data/departments';
@@ -15,38 +15,32 @@ export default class Icon extends Component {
 	look (imgdes, i) {
 		let text = imgdes.dept_name;
 		let imgw = imgdes.imge;
+		let sems = imgdes.sem_no;
+		const openDialog=()=> {
+			    	document.getElementById(i).style.display = "block";
+	  }
+
+		const  closeDialog=()=> {
+				    document.getElementById(i).style.display = "none";
+		  }
 		return (
-		<div className = "onebit" key={i} index={i}>
-			<img className = "image" src= {imgw} alt={text} />
-			<p className = "texts" >{text}</p>
-		</div>);
+				<div key={i} onClick={openDialog}>
+					<div className = "onebit" >
+						<img className = "image" src= {imgw} alt={text} />
+						<p className = "texts" >{text}</p>
+					</div>
+					<Dialog number={sems} closed={closeDialog} index={i} />
+				</div>
+			);
 		}
 
-		openDialog () {
-			document.getElementById('myModal').style.display = "block";
-		}
-
-		closeDialog () {
-			document.getElementById('myModal').style.display = "none";
-		}
 
 	render () {
 		return (
 			<div>
 				<h1>Departments</h1>
-				<div className="pro" onClick={this.openDialog} >
+				<div className="pro" >
 					{this.state.img.map(this.look)}
-				</div>
-				<div id="myModal" className="modal">
-					<div className="modal-content">
-						<div className="modal-header">
-							<span className="close" onClick={this.closeDialog}>&times;</span>
-							<h2>Semester</h2>
-						</div>
-						<div className="modal-body">
-							<p>Semesters</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		);
