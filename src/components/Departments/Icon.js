@@ -20,16 +20,13 @@ export default class Icon extends Component {
 			    	document.getElementById(i).style.display = "block";
 	  }
 
-		const  closeDialog=()=> {
-				    document.getElementById(i).style.display = "none";
-		  }
 		return (
 				<div key={i} onClick={openDialog}>
 					<div className = "onebit" >
 						<img className = "image" src= {imgw} alt={text} />
 						<p className = "texts" >{text}</p>
 					</div>
-					<Dialog number={sems} closed={closeDialog} index={i} />
+					<Dialog number={sems} index={i} />
 				</div>
 			);
 		}
