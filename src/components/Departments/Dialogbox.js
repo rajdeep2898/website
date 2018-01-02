@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './dialogbo.css';
 
+import { Link } from 'react-router-dom';
+
+
 export default class Dialogbox extends Component {
   constructor (props) {
 	    super(props);
@@ -13,8 +16,9 @@ export default class Dialogbox extends Component {
     );
   }
   closeDialog() {
-          console.log("0");
-          document.getElementById("0").style.display = "none";
+          const ind = this.props.index;
+          console.log(ind);
+          document.getElementById(ind).style.display = "none";
     }
 
   render() {
@@ -26,7 +30,7 @@ export default class Dialogbox extends Component {
             <h2>Semester</h2>
           </div>
           <div className="modal-body">
-            {this.props.number.map(this.look)}
+            <Link to="/courses">{this.props.number.map(this.look)}</Link>
           </div>
         </div>
       </div>

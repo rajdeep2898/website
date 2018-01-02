@@ -4,12 +4,12 @@ import Dialog from './Dialogbox';
 //import images
 import depart from '../../data/departments';
 
-import { Link } from 'react-router-dom';
 
 export default class Icon extends Component {
 	constructor (props) {
 	    super(props);
 	    this.state = { img : depart };
+      this.look=this.look.bind(this);
 		}
 
 	look (imgdes, i) {
