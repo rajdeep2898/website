@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './coursess.css'
 
 export default class Courses extends Component {
   constructor (props) {
@@ -7,10 +8,11 @@ export default class Courses extends Component {
 
   render() {
     return (
-      <div>
+      <div className="courses">
         <h1>Courses</h1>
         <ul>
-          <li>List of courses</li>
+          <li>GLC13101</li>
+          <li>GLC14101</li>
         </ul>
       </div>
     );
