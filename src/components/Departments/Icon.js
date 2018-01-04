@@ -20,19 +20,19 @@ export default class Icon extends Component {
 		let test = false;
 		const openDialog=()=> {
 						console.log(i+" open");
-						test=true;
 			    	document.getElementById(i).style.height = "100%";
 	  }
 
 		const closeDialog=()=> {
 						console.log(i+" close");
-						test=false;
 						document.getElementById(i).style.height = "0px";
 		}
 		const Click=()=> {
 			if (test) {
+				test=false;
 				closeDialog();
 			} else {
+				test=true;
 				openDialog();
 			}
 		}
