@@ -17,21 +17,36 @@ export default class Icon extends Component {
 		let text = imgdes.dept_name;
 		let imgw = imgdes.imge;
 		let sems = imgdes.sem_no;
+		let test = false;
 		const openDialog=()=> {
-			    	document.getElementById(i).style.display = "block";
+						console.log(i+" open");
+						test=true;
+			    	document.getElementById(i).style.height = "100%";
 	  }
 
+		const closeDialog=()=> {
+						console.log(i+" close");
+						test=false;
+						document.getElementById(i).style.height = "0px";
+		}
+		const Click=()=> {
+			if (test) {
+				closeDialog();
+			} else {
+				openDialog();
+			}
+		}
+
 		return (
-				<div key={i} onClick={openDialog}>
+				<div key={i} onClick={Click}>
 					<div className = "onebit" >
-						<img className = "image" src= {imgw} alt={text} />
-						<p className = "texts" >{text}</p>
+						<img id="image" className = "image" src= {imgw} alt={text} />
+						<p id="texts" className = "texts" >{text}</p>
 					</div>
 					<Dialog number={sems} index={i} />
 				</div>
 			);
 		}
-
 
 	render () {
 		return (
