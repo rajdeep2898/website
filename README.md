@@ -2,7 +2,7 @@
 
 Simple website made by me.
 
-### TechStalk
+### TechStack
 
 1. React (frontend)
 
