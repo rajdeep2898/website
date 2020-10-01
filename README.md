@@ -18,10 +18,8 @@ Simple website made by me.
 
 ### Install
 
-1. ``` git clone https://github.com/sanketsingh24/chat-app.git``` to create a local copy.
+1. ` git clone https://github.com/sanketsingh24/chat-app.git` to create a local copy.
 
-2. Run ```npm i ```in the terminal. (bash, zsh, git-bash)
+2. Run `npm i `in the terminal. (bash, zsh, git-bash)
 
-3. Run ```npm build``` to build the app.
-
-4. Run ```npm start``` to build the app.
+3. Run `npm start` to start the app in browser.
